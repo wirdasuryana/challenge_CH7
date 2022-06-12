@@ -1,0 +1,332 @@
+.group1 {
+  position: absolute;
+  width: 1440px;
+  height: 1024px;
+  left: 0px;
+  top: 0px;
+  
+  background: #9C835F;
+}
+
+.back {
+position: absolute;
+width: 55px;
+height: 87px;
+left: 37px;
+top: 12px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 98px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+text-decoration: none ;
+
+color: #724C21;
+}
+
+.logo1 {
+position: absolute;
+width: 72px;
+height: 72px;
+left: 119px;
+top: 27px;
+
+background: url(./assets/logo\ 1.png);
+}
+
+.rockpaperscissor {
+  position: absolute;
+  width: 410px;
+  height: 62px;
+  left: 218px;
+  top: 37px;
+  
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+  
+  color: #F9B23D;
+}
+
+.player1 {
+position: absolute;
+width: 299px;
+height: 94px;
+left: 296px;
+top: 162px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 49px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+.com {
+position: absolute;
+width: 299px;
+height: 94px;
+left: 865px;
+top: 162px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 49px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+.rock1 {
+  position: absolute;
+  width: 128px;
+  height: 92px;
+  left: 382px;
+  top: 267px;
+  
+  background: url(./assets/batu\ 1.png);
+}
+
+.rock2 {
+position: absolute;
+width: 128px;
+height: 92px;
+left: 951px;
+top: 267px;
+
+background: url(./assets/batu\ 1.png);
+}
+
+.paper1 {
+position: absolute;
+width: 115px;
+height: 150px;
+left: 388px;
+top: 440px;
+
+background: url(./assets/kertas\ 1.png);
+}
+
+.vs {
+position: absolute;
+width: 296px;
+height: 186px;
+left: 589px;
+top: 419px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 144px;
+line-height: 196px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #BD0000;
+}
+
+.paper2 {
+position: absolute;
+width: 115px;
+height: 150px;
+left: 970px;
+top: 440px;
+
+background: url(./assets/kertas\ 1.png);
+}
+
+.scissor2 {
+position: absolute;
+width: 134px;
+height: 160px;
+left: 951px;
+top: 671px;
+
+background: url(./assets/gunting\ 1.png);
+}
+
+.refresh {
+position: absolute;
+width: 77px;
+height: 71px;
+left: 681px;
+top: 843px;
+
+background: url(./assets/refresh\ 2.png);
+}
+
+.rectangle {
+position: absolute;
+width: 280px;
+height: 200px;
+left: 590px;
+top: 400px;
+
+background: #4C9654;
+border-radius: 10px;
+transform: rotate(-28.87deg);
+}
+
+.scissor1 {
+  position: absolute;
+  width: 134px;
+  height: 160px;
+  left: 369px;
+  top: 671px;
+  
+  background: url(./assets/gunting\ 1.png);
+  }
+  
+.rectanglescissor1 {
+position: absolute;
+width: 223px;
+height: 204px;
+left: 325px;
+top: 650px;
+padding-top: 25px;
+padding-bottom: 25px;
+padding-left: 50px;
+padding-right: 50px;
+
+background: #C4C4C4;
+border-radius: 30px;
+}
+
+
+.rectanglepaper2 {
+  position: absolute;
+  width: 215px;
+  height: 204px;
+  left: 910px;
+  top: 413px;
+  padding-top: 25px;
+  padding-bottom: 35px;
+  padding-left: 55px;
+  padding-right: 50px;
+  
+  background: #C4C4C4;
+  border-radius: 30px;
+  }
+
+  
+.rectanglerock2 {
+  position: absolute;
+  width: 223px;
+  height: 204px;
+  left: 903px;
+  top: 209px;
+  padding: 55px ;
+  
+  background: #C4C4C4;
+  border-radius: 30px;
+}
+
+.rectanglerock1 {
+  position: absolute;
+  width: 223px;
+  height: 204px;
+  left: 340px;
+  top: 209px;
+  padding: 55px;
+  
+  background: #C4C4C4;
+  border-radius: 30px;
+}
+
+.rectangleplayer1 {
+position: absolute;
+width: 223px;
+height: 204px;
+left: 334px;
+top: 222px;
+
+background: #C4C4C4;
+border-radius: 30px;
+}
+
+
+.player1win {
+position: absolute;
+width: 280px;
+height: 200px;
+left: 590px;
+top: 400x;
+text-align: center;
+padding: 40px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 52px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+transform: rotate(-30.98deg);
+}
+
+.comwin {
+  position: absolute;
+  width: 280px;
+  height: 200px;
+  left: 590px;
+  top: 400px;
+  text-align: center;
+  padding: 50px;
+  
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  word-wrap: normal ;
+  
+  color: #FFFFFF;
+  
+  transform: rotate(-30.98deg);
+  }
+
+  .draw {
+    position: absolute;
+    width: 280px;
+    height: 200px;
+    left: 590px;
+    top: 400px;
+    padding: 70px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    word-wrap: normal ;
+    
+    color: #FFFFFF;
+    
+    transform: rotate(-30.98deg);
+    }
