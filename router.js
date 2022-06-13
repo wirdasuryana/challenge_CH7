@@ -3,6 +3,13 @@ const auth = require('./controllers/authController')
 const passport = require('./lib/passport')
 const restrict = require('./middlewares/restrict')
 
+
+// router.get("/auth", (req, res) => { //tambahan jwat
+//   res.send("masuk")
+// })
+
+// router.post("api/v1/auth/login", auth.login) //tambahan jwat
+
 router.get('/', restrict, (req, res) => {
   res.render('index')
 })

@@ -16,6 +16,7 @@ app.use(session({
 const passport = require('./lib/passport')
 app.use(passport.initialize())
 app.use(passport.session())
+// app.use(express.json()) //tambahan jwt
 
 app.use(flash())
 app.set('view engine', 'ejs')
